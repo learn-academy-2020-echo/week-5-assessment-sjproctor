@@ -7,7 +7,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. Rails follows an MVC pattern. What does that mean?
 
-  Your answer: An architecture pattern - M: model, V: view, C: controller
+  Your answer: An architecture pattern for full stack development - M: model, V: view, C: controller
 
   Researched answer:
 

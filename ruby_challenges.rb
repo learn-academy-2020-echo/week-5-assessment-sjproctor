@@ -44,12 +44,16 @@ class Bike
 end
 
 bat_bike = Bike.new 'Trek', '168cm', 3
-# p bat_bike.get_info
-# bat_bike = Bike.new 'Schwinn', '170cm'
-# p bat_bike.get_info
-# bat_bike = Bike.new 'Specialized', '160cm'
-p bat_bike.ring_bell
 p bat_bike.get_info
+
+schwinn = Bike.new 'Schwinn', '170cm'
+p schwinn.get_info
+
+specialized = Bike.new 'Specialized', '160cm'
+p specialized.get_info
+
+p bat_bike.get_info
+p bat_bike.ring_bell
 p bat_bike.speed
 bat_bike.pedal_faster 10
 p bat_bike.speed

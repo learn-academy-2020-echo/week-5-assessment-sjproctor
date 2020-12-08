@@ -40,6 +40,7 @@ const filterWords = (array) => {
 }
 console.log(filterWords(arrayOfWords))
 
+// regex
 const filterWords2 = (array) => {
   return array.filter(value => {
     return value.match(/a/i)
